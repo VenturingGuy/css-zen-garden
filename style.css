@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-stretch: condensed;
+    background-color: rgb(21, 21, 24);
+    color:rgba(240, 243, 243, 0.972);
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.design-name {
+    color: tomato;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+  
+  li {
+    color: #333;
+    font-size: 1.5rem;
+  }
+  
+  .designer-name {
+    color: cornflowerblue;
+    font-size: 1rem;
+    text-transform: capitalize;
+  }
