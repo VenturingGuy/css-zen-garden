@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+
+
+html {
+  font-family: helvetica;
+  height: 100%;
+}
+
+html, body {
+  margin: 0;
+  height: 100%;
+  min-height: 100%;
+}
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-stretch: condensed;
@@ -10,19 +25,34 @@ h1, h2, h3 {
     font-weight: bold;
 }
 
+p {
+  font-stretch: normal;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+a {
+  color:rgb(176, 255, 242);
+  text-decoration: none;
+}
+
+abbr {
+  color: rgb(231, 203, 125);
+  text-decoration: none;
+}
+
 .design-name {
-    color: tomato;
+    color: rgb(71, 212, 255);
     font-size: 2rem;
     text-transform: uppercase;
   }
   
-  li {
-    color: #333;
-    font-size: 1.5rem;
-  }
+li {
+  color: #333;
+  font-size: 1.5rem;
+}
   
-  .designer-name {
-    color: cornflowerblue;
-    font-size: 1rem;
-    text-transform: capitalize;
-  }
+.designer-name {
+  color: rgb(132, 196, 248);
+  font-size: 1rem;
+  text-transform: capitalize;
+}
