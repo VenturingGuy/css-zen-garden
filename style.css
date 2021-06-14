@@ -50,20 +50,21 @@ a:focus {
 }
 
 abbr {
-  color: rgb(231, 203, 125);
+  color: rgb(246, 244, 78);
+  text-shadow: 2px 2px rgb(5, 21, 170);
   text-decoration: none;
 }
 
 div[role=article] {
-  background-color: rgb(30, 29, 31);
+  background: radial-gradient(rgb(41, 9, 51), rgb(68, 1, 59));
   border-radius: 0.2rem;
   padding: 1rem;
   margin: 1rem;
-  box-shadow: 0px 0px 5px 0px rgb(93, 93, 105);
+  box-shadow: 0px 0px 5px 0px rgb(103, 93, 105);
 }
 
 header{
-  background:rgb(43, 43, 83);
+  background: radial-gradient(rgb(0, 35, 56), rgb(0, 72, 114));
   width: 100%;
   padding: 0.5rem 1rem;
   text-align: center;
@@ -84,7 +85,7 @@ header{
 }
 
 .design-name {
-    color: rgb(71, 212, 255);
+    color: rgb(50, 169, 206);
     font-size: 2rem;
     text-transform: uppercase;
   }
@@ -107,7 +108,7 @@ li {
 
 footer {
   justify-content: center;
-  background:rgb(43, 43, 83);
+  background: radial-gradient(rgb(0, 35, 56), rgb(0, 72, 114));
   padding: 2em 2em;
   text-align: center;
   box-shadow: 0px 0px 5px 0px rgb(93, 93, 105);
@@ -130,7 +131,8 @@ footer a {
 }
 
 .sidebar {
-  background-color: rgb(31, 37, 37);
+  background: linear-gradient(#0e477c, #771633);
+  box-shadow: 0px 0px 5px 0px rgb(56, 141, 211);
   text-align: center;
   margin: 0 auto;
   height: min-content;
@@ -155,13 +157,13 @@ footer a {
   }
 
   footer {
-    background: rgb(30, 29, 31);
+    background: radial-gradient(rgb(26, 2, 34), rgb(68, 1, 59));
     margin-bottom: 2em;
   }
 
   footer a {
     background: rgba(82, 88, 116, 0.972);
-    border: 0.5em solid rgba(240, 243, 243, 0.972);
+    border: 0.25em solid rgba(240, 243, 243, 0.972);
     border-radius: 50%;
     padding: 1em;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -191,5 +193,12 @@ footer a {
     background-color:rgba(82, 88, 116, 0.972);
     flex-flow: column wrap;
     box-shadow: 0 4px 8px 0 rgba(176, 115, 255, 0.294);
+  }
+}
+
+@media (min-width: 1250px) {
+  .sidebar ul {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
   }
 }
